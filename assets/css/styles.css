@@ -197,6 +197,18 @@ p {
   vertical-align: middle;
 }
 
+@media (max-width: 420px) {
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .icons_img{
+    max-width: 80px;
+    width: 100%;
+  }
+}
+
 .footer-block__div_h {
   text-transform: uppercase;
   font-weight: bold;
